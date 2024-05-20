@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Main.module.css'
+import previewImage from '../../Images/dashboard-preview.jpg'
 
 
 function Main() {
@@ -15,6 +16,9 @@ function Main() {
       <div style={{paddingBottom:"10px", color:"rgb(75, 72, 72)"}}>qna_pdf allows you to have conversations with any PDF document. Simply upload your file and start asking questions right away.</div>
 
       <div style={{padding:"5px"}}><button className={styles.mainButton}>Get Started</button></div>
+
+      <img src={previewImage} 
+       style={{width:"1364", height:"866", marginTop:"50px", border:"2px solid rgb(189, 187, 187)", borderRadius:"10px", padding:"10px", backgroundColor:"rgb(212, 209, 209)"}}/>
 
 
       <div style={{fontSize:"40px", fontWeight:"bold", paddingTop:"60px", paddingBottom:"5px"}}>
